@@ -1,0 +1,23 @@
+.header{
+    width: 1,1440px;
+    height: 176px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#982417 ;
+}
+.header__title{
+    width: 176px;
+    height: 120px;
+font-weight: bold;
+color:#FFF0D1;
+text-align: center;
+justify-content: center;
+}
+.header__title--bege{
+    color:#C7AB72 ;
+}
+.header__nav{
+justify-content: center;
+align-items: center;
+}
