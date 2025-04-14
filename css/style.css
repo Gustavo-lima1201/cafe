@@ -45,29 +45,32 @@ display: flex;
 }
 /* main */
 main{
-    height: 60vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     background-image: url(../imagens/img/banner_Dsk.png);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .sessao1{
     display: flex;
     flex-direction: column;
-    width: 700px;
-    height: 264px;
+    width: 36.813rem;
+    height: 14.813rem;
     justify-content: center;
     align-items: center;
-    background-color: #ffff ;
-    position: relative;
-    left: 1190px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    padding: 32px 48px 32px 16px;
+    right: 0.8%;
 }
 .sessao1__texto1{
 font-size: 40px;
 position: relative;
 bottom: 55px;
-left: 50px;
+justify-content: center;
+left: 5%;
 font-family: Lekton Bold 700, sans-serif;
 
 }
@@ -75,7 +78,8 @@ font-family: Lekton Bold 700, sans-serif;
 font-size: 28px;
 position: relative;
 bottom: 50px;
-left: 50px;
+justify-content: center;
+left: 5%;
 font-family: Inria Sans, sans-serif ;
 }
 .sessao1__texto2--vermelho{
@@ -91,6 +95,7 @@ font-family: Inria Sans, sans-serif ;
     width: 108px;
     height: 35px;
     border: 1px solid #FF9C2D;
+    padding: 8px 16px;
     border-radius: 6px;
 }
 .botao1:hover{
