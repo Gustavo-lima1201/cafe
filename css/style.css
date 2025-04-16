@@ -44,16 +44,19 @@ color: #FFF0D1;
 display: flex;
 }
 /* main */
-main{
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    background-image: url(../imagens/img/banner_Dsk.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
+
 .sessao1{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../imagens/img/banner_Dsk.png);
+    background-size: cover;
+    background-position: center;
+    width: 1,1440px;
+    height: 528px;
+    position: relative;
+    padding: 20px;
+}
+.box{
     display: flex;
     flex-direction: column;
     width: 36.813rem;
@@ -64,9 +67,10 @@ main{
     position: absolute;
     padding: 32px 48px 32px 16px;
     right: 0.8%;
+    top: 110px;
 }
 .sessao1__texto1{
-font-size: 40px;
+    font-size: 40px;
 position: relative;
 bottom: 55px;
 justify-content: center;
@@ -109,4 +113,35 @@ font-family: Inria Sans, sans-serif ;
     height: 35px;
     background-color: #FF9C2D;
     border-radius: 6px;
+}
+.sessao2{
+    display: flex;
+    background-color: #FFF0D1;
+     width: 1,1440px;
+    height: 528px;
+    position: relative;
+    padding: 20px; 
+    gap: 40px; 
+   
+}
+.sessao2__itens{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 249px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 32px 48px 32px 16px;
+    gap: 30px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 125px;
+    right: 10px;
+}
+.sessao2__subtitulo{
+    color: red;
+    font-size: 35px;
+    width: 20;
 }
