@@ -249,6 +249,25 @@ height: 50px;
         width: 650px;
         height: 258px;
     }
+    .sessao4__box {
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: flex-start;
+        gap: 20px; 
+    }
     
+    .sessao4__box__iten1,
+    .sessao4__box__iten2 {
+        display: flex;
+        flex-direction: column; 
+        width: 48%; 
+        background-color: #f9f9f9;
+        padding: 20px; 
+        border-radius: 8px; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
     
+  
+
     
