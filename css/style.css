@@ -267,7 +267,47 @@ height: 50px;
         border-radius: 8px; 
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
+        .sessao4__box__iten2__subtitulo, .sessao4__box__iten1__subtitulo{
+            background-color: #982417;
+            height: 45px;
+            padding-top: 10px;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            
+        }
+        .sessao4__box__iten1__lista, .sessao4__box__iten2__lista{
+            list-style: disc;
+            text-align: center;
+        }
     
-  
+    
+  footer {
+  background-color: #992b1c;
+  color: #fce7ca;
+  text-align: center;
+  padding: 20px;
+  font-family: serif;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-top .icon {
+  width: 18px;
+  margin-right: 5px;
+}
+
+.footer-bottom p {
+  font-size: 16px;
+  margin-top: 10px;
+}
 
     
